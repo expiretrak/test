@@ -34,3 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: do something alpine specific to make sure we are on a container
+        run: apk 
